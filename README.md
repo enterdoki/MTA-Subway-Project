@@ -1,8 +1,29 @@
 # CS335-Project2-Part2
 by Yu Tong Chen
-New York City OpenData - MTA Subway Data
+
 
 ## How to run
+
+Download all the files, make in terminal, edit main.cpp function parameters 
+to see different outputs. Command parsing not set up yet. 
+
+Can edit most of these (those with string parameters):
+
+cout << sub_line.form_stations() << endl;
+    cout << "************************" << endl;
+    sub_line.list_all_stations(cout);
+    cout << "************************" << endl;
+    sub_line.list_all_portals(cout, "Broadway-7th Ave-Times Square");
+    cout << "************************" << endl;
+    sub_line.list_stations_of_route(cout, "FS");
+    cout << "************************" << endl;
+    cout << "--------------------" << endl;
+    cout << sub_line.get_portal("4th Ave,25th St,SE,2",portal) << endl;
+    cout << "************************" << endl;
+    cout << sub_line.nearest_portal(40.91,-73.86) << endl;
+    cout << "************************" << endl;
+    cout << sub_line.nearest_routes(40.91,-73.86) << endl;
+    cout << endl;
 
 Type "make" in the command line. It should output to a compiled "project2" file.
 then
