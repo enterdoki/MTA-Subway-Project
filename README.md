@@ -9,7 +9,8 @@ to see different outputs. Command parsing not set up yet.
 
 Can edit most of these (those with string parameters):
 
-cout << sub_line.form_stations() << endl;
+
+    cout << sub_line.form_stations() << endl;
     cout << "************************" << endl;
     sub_line.list_all_stations(cout);
     cout << "************************" << endl;
@@ -24,6 +25,7 @@ cout << sub_line.form_stations() << endl;
     cout << "************************" << endl;
     cout << sub_line.nearest_routes(40.91,-73.86) << endl;
     cout << endl;
+
 
 Type "make" in the command line. It should output to a compiled "project2" file.
 then
