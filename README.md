@@ -52,4 +52,4 @@ due to the large data provided. List all stations is working but that function i
 
 ### May 9, 2019 - May 10,2019
 Omitted fully using a hash table as I into output discrepancies. I know, I know, it's very inefficient but that was the only way to
-have my program execute all the functions(list all, get near functions). 465 unique stations found and 1374 disjoint sets created, a tiny bit off from what Professor. Everything's completed. DONE
+have my program execute all the functions(list all, get near functions). 465 unique stations found and 1374 disjoint sets created. Everything's completed. DONE!
