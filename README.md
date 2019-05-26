@@ -52,22 +52,4 @@ due to the large data provided. List all stations is working but that function i
 
 ### May 9, 2019 - May 10,2019
 Omitted fully using a hash table as I into output discrepancies. I know, I know, it's very inefficient but that was the only way to
-have my program execute all the functions(list all, get near functions). 465 unique stations found and 1374 disjoint sets created, a tiny bit off from what Professor Weiss had.
-Having serious issues at this point. Program compiles fine using my own main.cpp that I wrote. Basically this is the code after opening the csv file:
-
-    SubwaySystem sub_line;
-    while(getline(input_stream, line)) {
-        SubwayPortal portal(line);
-        sub_line.add_portal(portal);
-    }
-    cout << sub_line.form_stations() << endl;
-
-Afterwords, it enters the command phase and that also works.
-Functions work. The list and get nearest functions are all done and 95% correct in terms of output. However, making with provided
-main.o turned this whole thing upside down as there are no errors after making. As soon as I tried doing any of the following: /project2 subwaydata_newstationnames.csv listall_cmmd, memory and pointer errors start popping up and
-at this point I don't know how to fix it honestly. Not sure why the provided main.o is calling for HashTable destructor when I didn't dynamically allocate any memory, with
-or without using hash tables. So many errors. So fustrating.
-Error in `./project2': free(): invalid pointer: 0x00007fffe8fb7d80 ***
-Another failed project again apparently. Sigh. 
-Submitting what I have that compiles 100% fine on my own written main.cpp, all command functions work no errors to a 95% output accuracy compared to provided command.out files. Could be better but I spent way too much time trying 
-trying to fix errors when compiling with provided main.o.  
+have my program execute all the functions(list all, get near functions). 465 unique stations found and 1374 disjoint sets created, a tiny bit off from what Professor. Everything's completed. DONE
