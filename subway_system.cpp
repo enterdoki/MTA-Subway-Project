@@ -45,7 +45,7 @@ void SubwaySystem::list_all_portals(ostream &out, string station_name)  {
         }
     }
     for(auto &i:portals)
-        cout << i << endl;
+        out << i << endl;
 }
 void SubwaySystem::list_stations_of_route(ostream &out, route_id route)  {
     SubwayPortal temp;
